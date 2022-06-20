@@ -1,0 +1,22 @@
+.publication {
+  .page {
+    background-color: #fff;
+    box-shadow: 4px 4px 8px 2px #c3c0c060;
+    height: $page-height;
+    margin: 10mm;
+    position: relative;
+    width: $page-width;
+
+    &:nth-child(even) {
+      .margin {
+        &.bottom {
+          flex-direction: row-reverse;
+        }
+
+        &.top {
+          flex-direction: row-reverse;
+        }
+      }
+    }
+  }
+}

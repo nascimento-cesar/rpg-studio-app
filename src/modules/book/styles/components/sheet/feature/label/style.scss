@@ -1,0 +1,13 @@
+.publication {
+  .sheet {
+    .feature {
+      .label {
+        font-weight: 600;
+
+        &::after {
+          content: ": ";
+        }
+      }
+    }
+  }
+}

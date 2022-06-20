@@ -1,0 +1,17 @@
+.publication {
+  .paragraph {
+    text-indent: 10pt;
+
+    &:first-child {
+      text-indent: initial;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &.sibling {
+      text-indent: initial;
+    }
+  }
+}

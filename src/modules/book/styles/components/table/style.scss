@@ -1,0 +1,17 @@
+.publication {
+  .table {
+    background-color: #f5f5f5;
+    margin-bottom: 4mm;
+    margin-top: 4mm;
+    padding: 2mm;
+    width: 100%;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

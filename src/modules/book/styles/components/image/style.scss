@@ -1,0 +1,24 @@
+.publication {
+  .image {
+    margin-bottom: 4mm;
+    margin-top: 4mm;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+    
+    img {
+      max-width: 100%;
+    }
+
+    figcaption {
+      font-size: 8pt;
+      font-weight: 600;
+      line-height: 13pt;
+    }
+  }
+}

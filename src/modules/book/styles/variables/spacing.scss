@@ -1,0 +1,6 @@
+$page-height: 297mm;
+$page-width: 210mm;
+$horizontal-margin-thickness: 15mm;
+$vertical-margin-thickness: 10mm;
+$inner-height: $page-height - (2 * $horizontal-margin-thickness);
+$inner-width: $page-width - (2 * $vertical-margin-thickness);

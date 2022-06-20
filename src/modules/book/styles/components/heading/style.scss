@@ -1,0 +1,58 @@
+.publication {
+  .heading {
+    color: #5f585e;
+    font-family: "Cinzel", serif;
+
+    font-weight: 700;
+    margin-top: 4mm;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    & + .paragraph {
+      text-indent: initial;
+    }
+  }
+
+  h1 {
+    &.heading {
+      font-size: 21pt;
+      line-height: 23pt;
+      margin-top: 6mm;
+    }
+  }
+
+  h2 {
+    &.heading {
+      font-size: 15pt;
+      line-height: 17pt;
+    }
+  }
+
+  h3 {
+    &.heading {
+      font-size: 12pt;
+      font-weight: 700;
+      line-height: 15pt;
+    }
+  }
+
+  h4 {
+    &.heading {
+      font-size: 12pt;
+    }
+  }
+
+  h5 {
+    &.heading {
+      font-size: 10pt;
+    }
+  }
+
+  h6 {
+    &.heading {
+      font-size: 9pt;
+    }
+  }
+}

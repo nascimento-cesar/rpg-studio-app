@@ -1,0 +1,28 @@
+.publication {
+  .sheet {
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+    margin-bottom: 4mm;
+    margin-top: 4mm;
+    padding: 4mm;
+    width: 100%;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    .heading {
+      border: 0;
+    }
+
+    .paragraph {
+      &:first-of-type {
+        text-indent: initial;
+      }
+    }
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "data": {
+    "id": "a4aca1ae-8dd4-449d-bc88-f6f1ad34b0b3",
+    "type": "publication",
+    "attributes": {
+      "metadata": {
+        "name": "A Swiftly Tilting Planet"
+      },
+      "sections": {
+        "2412c38a-0f4f-4680-9902-6e4f494ded24": {
+          "level": 1,
+          "index": 1,
+          "parentSection": null,
+          "layoutSettings": {},
+          "content": {
+            "heading": "Introduction"
+          },
+          "components": {
+            "ee3b3166-1828-4164-bdf2-8e6b3ac41dba": {
+              "type": "text",
+              "layoutSettings": {},
+              "content": {
+                "paragraphs": [
+                  "This is a paragraph."
+                ]
+              }
+            }
+          }
+        },
+        "df39a531-b662-467b-9a6c-6cd9f0cc9cb7": {
+          "level": 1,
+          "index": 2,
+          "parentSection": null,
+          "layoutSettings": {},
+          "content": {
+            "heading": "Chapter 1"
+          },
+          "components": {
+            "0ab1e2d8-1c66-4c7c-a93a-a3e96d098112": {
+              "type": "image",
+              "layoutSettings": {},
+              "content": {
+                "url": "https://images.unsplash.com/photo-1516967124798-10656f7dca28",
+                "caption": "Image caption."
+              }
+            },
+            "ddf1d355-5e79-4668-8daa-a4695a4783d8": {
+              "type": "noteBox",
+              "layoutSettings": {},
+              "content": {
+                "heading": "https://images.unsplash.com/photo-1516967124798-10656f7dca28",
+                "paragraphs": [
+                  "This is a paragraph."
+                ]
+              }
+            },
+            "209084b8-0adf-46ad-b6a6-0bee652a8b33": {
+              "type": "table",
+              "layoutSettings": {},
+              "content": {
+                "heading": "Table heading",
+                "caption": "Table caption",
+                "columns": [
+                  "Column 1",
+                  "Column 2"
+                ],
+                "rows": [
+                  [
+                    "Row 1 column 1",
+                    "Row 1 column 2"
+                  ],
+                  [
+                    "Row 2 column 1",
+                    "Row 2 column 2"
+                  ]
+                ]
+              }
+            }
+          }
+        },
+        "43aebb8e-9b86-49e2-a07d-b7bf701ee05b": {
+          "level": 2,
+          "index": 3,
+          "parentSection": "df39a531-b662-467b-9a6c-6cd9f0cc9cb7",
+          "layoutSettings": {},
+          "content": {
+            "heading": "Chapter 1.1"
+          },
+          "components": {
+            "ddf1d355-5e79-4668-8daa-a4695a4783d8": {
+              "type": "sheet",
+              "layoutSettings": {},
+              "content": {
+                "heading": "Sample sheet",
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1516967124798-10656f7dca28"
+                },
+                "paragraphs": [
+                  "This is a paragraph."
+                ],
+                "features": [
+                  [
+                    "feature 1",
+                    "description"
+                  ],
+                  [
+                    "feature 2",
+                    "description"
+                  ]
+                ],
+                "tags": [
+                  "tag 1",
+                  "tag 2"
+                ],
+                "blocks": [
+                  {
+                    "heading": "Block 1",
+                    "paragraphs": [
+                      "This is a paragraph."
+                    ],
+                    "features": [
+                      [
+                        "feature 1",
+                        "description"
+                      ],
+                      [
+                        "feature 2",
+                        "description"
+                      ]
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.publication {
+  .sheet {
+    .block {
+      margin-top: 4mm;
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+  }
+}

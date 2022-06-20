@@ -1,0 +1,18 @@
+@page {
+  margin: 0;
+}
+
+@media print {
+  .publication {
+    background-color: initial;
+    overflow: initial;
+
+    -webkit-print-color-adjust: exact;
+
+    .page {
+      box-shadow: none;
+      margin: 0;
+      page-break-after: always;
+    }
+  }
+}
